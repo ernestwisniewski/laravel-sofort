@@ -1,0 +1,23 @@
+{
+  "name": "ernestwisniewski/laravel-sofort",
+  "description": "Laravel wrapper for the Sofort API",
+  "keywords": [
+    "laravel", "sofort", "payments", "billing"
+  ],
+  "authors": [
+    {
+      "name": "Ernest Wisniewski",
+      "email": "ernestwisniewski2@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "ErnestWisniewski\\LaravelSofort\\": "src/Sofort/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "sofort/sofortlib-php": "^3.0"
+  }
+}
